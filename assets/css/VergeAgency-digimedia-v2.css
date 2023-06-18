@@ -1414,6 +1414,11 @@ Services Style
   width: 25px;
 }
 
+.white-text {
+  color: white;
+  text-align: left;
+}
+
 
 /* 
 ---------------------------------------------
