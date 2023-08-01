@@ -1293,7 +1293,7 @@ Services Style
 
 .services .naccs .menu div {
   color: #2a2a2a;
-  margin: 0px 50px;
+  /*margin: 0px 50px;*/
   width: 15%;
   font-size: 12px;
   font-weight: 600;
@@ -1314,8 +1314,13 @@ Services Style
   margin-right: 30px;
 }
 
-.services .naccs .menu div.active {
+.services .naccs .menu .service-box {
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  margin:0px 20px;
+}
+
+.services .naccs .menu div.active {
+  box-shadow: 0px 0px 45px rgba(0,0,0,0.5);
 }
 
 .services ul.nacc {
