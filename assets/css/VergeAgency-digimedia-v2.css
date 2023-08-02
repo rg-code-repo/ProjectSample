@@ -895,7 +895,7 @@ Banner Style
   position: absolute;
   left: 0;
   top: 60px;
-  width: 262px;
+  /*width: 262px;*/
   height: 625px;
   z-index: 1;
 }
@@ -2137,4 +2137,9 @@ responsive
   form#contact {
     padding: 30px;
   }
+}
+
+
+.gap {
+  height: 100px;
 }
